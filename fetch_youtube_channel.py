@@ -4,7 +4,7 @@ import pandas as pd
 import s3fs
 import time
 
-API_KEY = "AIzaSyCTKH-OMhHJrbEENrWDBEm9m4syqtn8wJ8"
+API_KEY = "AI*******************************"
 
 def get_video_details(video_id):
     url = "https://www.googleapis.com/youtube/v3/videos?id="+video_id+"&part=statistics&key="+API_KEY
